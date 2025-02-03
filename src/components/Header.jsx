@@ -33,22 +33,22 @@ const Header = () => {
                         <Link to='/' className='text-primary'>Find Jobse</Link>
                     </li>
                     <li className='font-medium'>
-                        <Link to='/'>Top Companies</Link>
+                        <Link to='/' className='hover:text-primary'>Top Companies</Link>
                     </li>
                     <li className='font-medium'>
-                        <Link to='/'>Job Tracker</Link>
+                        <Link to='/' className='hover:text-primary'>Job Tracker</Link>
                     </li>
                     <li className='font-medium'>
-                        <Link to='/'>My Calendar</Link>
+                        <Link to='/' className='hover:text-primary'>My Calendar</Link>
                     </li>
                     <li className='font-medium'>
-                        <Link to='/'>Documents</Link>
+                        <Link to='/' className='hover:text-primary'>Documents</Link>
                     </li>
                     <li className='font-medium'>
-                        <Link to='/'>Messages</Link>
+                        <Link to='/' className='hover:text-primary'>Messages</Link>
                     </li>
                     <li className='font-medium'>
-                        <Link to='/'>Notifications</Link>
+                        <Link to='/' className='hover:text-primary'>Notifications</Link>
                     </li>
                 </ul>
                 <div ref={menuRef}>
@@ -65,22 +65,22 @@ const Header = () => {
                                     <Link to='/' className='text-primary'>Find Jobse</Link>
                                 </li>
                                 <li className='hover:bg-gray-100 py-2.5'>
-                                    <Link to='/'>Top Companies</Link>
+                                    <Link to='/' className='hover:text-primary'>Top Companies</Link>
                                 </li>
                                 <li className='hover:bg-gray-100 py-2.5'>
-                                    <Link to='/'>Job Tracker</Link>
+                                    <Link to='/' className='hover:text-primary'>Job Tracker</Link>
                                 </li>
                                 <li className='hover:bg-gray-100 py-2.5'>
-                                    <Link to='/'>My Calendar</Link>
+                                    <Link to='/' className='hover:text-primary'>My Calendar</Link>
                                 </li>
                                 <li className='hover:bg-gray-100 py-2.5'>
-                                    <Link to='/'>Documents</Link>
+                                    <Link to='/' className='hover:text-primary'>Documents</Link>
                                 </li>
                                 <li className='hover:bg-gray-100 py-2.5'>
-                                    <Link to='/'>Messages</Link>
+                                    <Link to='/' className='hover:text-primary'>Messages</Link>
                                 </li>
                                 <li className='hover:bg-gray-100 py-2.5'>
-                                    <Link to='/'>Notifications</Link>
+                                    <Link to='/' className='hover:text-primary'>Notifications</Link>
                                 </li>
                             </ul>
                             <button className='w-full sm:hidden block bg-primary hover:bg-hover-primary transition-all duration-200 text-white rounded-lg px-5 py-2.5 mt-2.5'>Resume Builder</button>
