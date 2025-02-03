@@ -1,9 +1,9 @@
 import React from 'react';
 import UserProfile from '@/components/UserProfile';
-import ProfileInsight from '../components/ProfileInsight';
-import Calendar from '../components/Calendar';
-import SearchJobs from '../components/SearchJobs';
-import JobPosts from '../components/JobPosts';
+import ProfileInsight from '@/components/ProfileInsight';
+import Calendar from '@/components/Calendar';
+import SearchJobs from '@/components/SearchJobs';
+import JobPosts from '@/components/JobPosts';
 
 const Home = () => {
 

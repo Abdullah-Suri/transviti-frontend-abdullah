@@ -41,7 +41,7 @@ const JobPosts = () => {
                     {item.isPromoted && <span className='text-[10px] font-semibold'>Promoted</span>}
                     <div className='flex items-start gap-2.5 mt-1'>
                         <div className='size-[40px] bg-[#FAFAFA] rounded-[10px] flex items-center justify-center'>
-                            <img src={teamsLogo} alt="" />
+                            <img src={teamsLogo} alt="company logo" />
                         </div>
                         <div>
                             <h5 className='text-sm font-medium line-clamp-1'>{item.title}</h5>
@@ -49,12 +49,12 @@ const JobPosts = () => {
                         </div>
                     </div>
                     <div className='flex items-center text-xs font-medium text-teriatory mt-1.5 gap-2.5'>
-                        <img src={locationIcon} alt="" />
+                        <img src={locationIcon} alt="location icon" />
                         <p>{item.location}</p>
                     </div>
                     <div className='flex items-center text-xs font-medium text-teriatory mt-1.5'>
                         <div className='flex items-center gap-2 pr-1'>
-                            <img src={timeIcon} alt="" />
+                            <img src={timeIcon} alt="clock icon" />
                             <p>{item.posted}</p>
                         </div>
                         <div className='text-primary border-l border-secondary pl-1 whitespace-nowrap'>
@@ -64,7 +64,7 @@ const JobPosts = () => {
                     <div className='flex items-center justify-between mt-4'>
                         <button className='py-2.5 px-7 bg-primary hover:bg-hover-primary transition-all duration-200 rounded-[10px] text-white text-xs leading-[1.3em]'>Apply Now</button>
                         <button>
-                            <img src={saveIcon} alt="" />
+                            <img src={saveIcon} alt="save icon" />
                         </button>
                     </div>
                 </div>
@@ -84,7 +84,7 @@ const JobPosts = () => {
                     {item.isPromoted && <span className='text-[10px] font-semibold'>Promoted</span>}
                     <div className='flex items-start gap-2.5 mt-1'>
                         <div className='size-[40px] bg-[#FAFAFA] rounded-[10px] flex items-center justify-center'>
-                            <img src={teamsLogo} alt="" />
+                            <img src={teamsLogo} alt="company logo" />
                         </div>
                         <div>
                             <h5 className='text-sm font-medium line-clamp-1'>{item.title}</h5>
@@ -92,12 +92,12 @@ const JobPosts = () => {
                         </div>
                     </div>
                     <div className='flex items-center text-xs font-medium text-teriatory mt-1.5 gap-2.5'>
-                        <img src={locationIcon} alt="" />
+                        <img src={locationIcon} alt="location icon" />
                         <p>{item.location}</p>
                     </div>
                     <div className='flex items-center text-xs font-medium text-teriatory mt-1.5'>
                         <div className='flex items-center gap-2 pr-1'>
-                            <img src={timeIcon} alt="" />
+                            <img src={timeIcon} alt="clock icon" />
                             <p>{item.posted}</p>
                         </div>
                         <div className='text-primary border-l border-secondary pl-1 whitespace-nowrap'>
@@ -107,7 +107,7 @@ const JobPosts = () => {
                     <div className='flex items-center justify-between mt-4'>
                         <button className='py-2.5 px-7 bg-primary hover:bg-hover-primary transition-all duration-200 rounded-[10px] text-white text-xs leading-normal'>Apply Now</button>
                         <button>
-                            <img src={saveIcon} alt="" />
+                            <img src={saveIcon} alt="save icon" />
                         </button>
                     </div>
                 </div>
