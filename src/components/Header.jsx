@@ -103,7 +103,7 @@ const Header = () => {
                         <img src={userAccImg} alt="User Account" className="w-10 h-10 rounded-full" />
                     </div>
 
-                    <div className={`absolute right-0 mt-4 w-48 bg-white shadow-md rounded-lg transition-all duration-300 overflow-hidden ${
+                    <div className={`absolute z-[9] right-0 mt-4 w-48 bg-white shadow-md rounded-lg transition-all duration-300 overflow-hidden ${
                             isProfileOpen ? "max-h-48 opacity-100 p-2" : "max-h-0 opacity-0 p-0"
                         }`}
                     >
