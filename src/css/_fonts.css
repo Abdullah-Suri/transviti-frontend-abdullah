@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'neue-haas';
+    font-style: normal;
+    font-weight: 800;
+    src: local('NeueHaasDisplayBlack'), url('fonts/NeueHaasDisplayBlack.ttf') format('ttf');
+}
