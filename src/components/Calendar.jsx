@@ -29,7 +29,7 @@ const Calendar = () => {
       <div className="bg-white rounded-[10px] flex items-center justify-between p-2.5 mt-2.5 cursor-pointer" onClick={() => setIsOpen(!isOpen)}>
         <div>
           <h4 className="font-semibold">My Calendar</h4>
-          <p className="font-medium text-teriatory">Upcoming Interviews</p>
+          <p className="text-sm font-medium text-teriatory -mt-0.5">Upcoming Interviews</p>
         </div>
         <img src={dropDownIcon} alt="drop-down icon" className={`transition-transform duration-300 ${isOpen ? "rotate-180" : ""}`}
         />

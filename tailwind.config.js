@@ -5,9 +5,9 @@ export default {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        'barlow': "'Barlow', sans-serif",
-      },
+      // fontFamily: {
+      //   'barlow': "'Barlow', sans-serif",
+      // },
       colors: {
         "primary": 'var(--primary)',
         "secondary": 'var(--secondary)',

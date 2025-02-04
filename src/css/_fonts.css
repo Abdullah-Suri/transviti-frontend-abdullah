@@ -1,6 +1,18 @@
 @font-face {
-    font-family: 'neue-haas';
+    font-family: 'Neue Haas';
     font-style: normal;
-    font-weight: 800;
-    src: local('NeueHaasDisplayBlack'), url('fonts/NeueHaasDisplayBlack.ttf') format('ttf');
+    font-weight: 400;
+    src: local('NeueHaasDisplayBlack'), url('fonts/NHaasGroteskDSPro-15UltTh.otf') format('otf');
 }
+/* @font-face {
+    font-family: 'Neue Haas';
+    font-style: normal;
+    font-weight: 500;
+    src: local('NeueHaasDisplayBlack'), url('fonts/NeueHaasDisplayMediu.ttf') format('otf');
+}
+@font-face {
+    font-family: 'Neue Haas';
+    font-style: normal;
+    font-weight: 600;
+    src: local('NeueHaasDisplayBlack'), url('fonts/NeueHaasDisplayBold.ttf') format('otf');
+} */

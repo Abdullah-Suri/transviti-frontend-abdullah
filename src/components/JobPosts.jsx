@@ -23,17 +23,19 @@ const JobPosts = () => {
     
   return (
     <div>
-        <div className='flex items-center justify-start flex-wrap gap-y-2.5 mt-5'>
-            <span className='mr-3.5'>Similiar:</span>
-            <button className='border border-[#737A91] rounded-[10px] hover:bg-[#737A91] hover:text-white transition-all duration-150 mr-3 py-2 px-3.5'>Frontend</button>
-            <button className='border border-[#737A91] rounded-[10px] hover:bg-[#737A91] hover:text-white transition-all duration-150 mr-3 py-2 px-3.5'>Backend</button>
-            <button className='border border-[#737A91] rounded-[10px] hover:bg-[#737A91] hover:text-white transition-all duration-150 mr-3 py-2 px-3.5'>Graphic Designer</button>
+        <div className='flex sm:items-center items-start justify-start sm:flex-row flex-col flex-wrap gap-y-2.5 text-teriatory mt-5'>
+            <span className='mr-3.5 text-sm'>Similiar:</span>
+            <button className='sm:w-fit w-full border border-[#737A91] rounded-[5px] text-xs hover:bg-[#737A91] hover:text-white transition-all duration-150 mr-3 py-2 px-3.5'>Frontend</button>
+            <button className='sm:w-fit w-full border border-[#737A91] rounded-[5px] text-xs hover:bg-[#737A91] hover:text-white transition-all duration-150 mr-3 py-2 px-3.5'>Backend</button>
+            <button className='sm:w-fit w-full border border-[#737A91] rounded-[5px] text-xs hover:bg-[#737A91] hover:text-white transition-all duration-150 mr-3 py-2 px-3.5'>Graphic Designer</button>
         </div>
         
+        <div className='w-full h-px bg-[#E9ECEF] mt-2.5 mb-5'></div>
+
         {/* Featured Jobs */}
         <div className='flex items-center gap-3.5 mt-5 mb-3'>
-            <h4 className='text-lg'>Featured Jobs</h4>
-            <Link to='/' className='text-sm underline text-primary'>See Featured Jobs</Link>
+            <h4 className='sm:text-lg'>Featured Jobs</h4>
+            <Link to='/' className='sm:text-sm text-xs text-primary relative before:absolute before:bottom-0 before:h-px before:w-full before:bg-primary'>See Featured Jobs</Link>
         </div>
         <div className='flex items-center gap-4 flex-wrap justify-start'>
             {featuredJobs.map((item, index) => (
@@ -57,12 +59,12 @@ const JobPosts = () => {
                             <img src={timeIcon} alt="clock icon" />
                             <p>{item.posted}</p>
                         </div>
-                        <div className='text-primary border-l border-secondary pl-1 whitespace-nowrap'>
+                        <div className='text-primary border-l border-territory pl-1 whitespace-nowrap'>
                             {item.applicants} applicants
                         </div>
                     </div>
                     <div className='flex items-center justify-between mt-4'>
-                        <button className='py-2.5 px-7 bg-primary hover:bg-hover-primary transition-all duration-200 rounded-[10px] text-white text-xs leading-[1.3em]'>Apply Now</button>
+                        <button className='py-2.5 px-[30px] bg-primary hover:bg-hover-primary transition-all duration-200 rounded-[5px] text-white text-xs leading-[1.3em]'>Apply Now</button>
                         <button>
                             <img src={saveIcon} alt="save icon" />
                         </button>
@@ -75,8 +77,8 @@ const JobPosts = () => {
 
         {/* Recommended Jobs */}
         <div className='flex items-center gap-3.5 mb-3'>
-            <h4 className='text-lg'>Recommended Jobs</h4>
-            <Link to='/' className='text-sm underline text-primary'>See Recommended Jobs</Link>
+            <h4 className='sm:text-lg'>Recommended Jobs</h4>
+            <Link to='/' className='sm:text-sm text-xs text-primary relative before:absolute before:bottom-0 before:h-px before:w-full before:bg-primary'>See Recommended Jobs</Link>
         </div>
         <div className='flex items-center gap-4 flex-wrap justify-start'>
             {recomendedJobs.map((item, index) => (
@@ -100,12 +102,12 @@ const JobPosts = () => {
                             <img src={timeIcon} alt="clock icon" />
                             <p>{item.posted}</p>
                         </div>
-                        <div className='text-primary border-l border-secondary pl-1 whitespace-nowrap'>
+                        <div className='text-primary border-l border-territory pl-1 whitespace-nowrap'>
                             {item.applicants} applicants
                         </div>
                     </div>
                     <div className='flex items-center justify-between mt-4'>
-                        <button className='py-2.5 px-7 bg-primary hover:bg-hover-primary transition-all duration-200 rounded-[10px] text-white text-xs leading-normal'>Apply Now</button>
+                        <button className='py-2.5 px-[30px] bg-primary hover:bg-hover-primary transition-all duration-200 rounded-[5px] text-white text-xs leading-normal'>Apply Now</button>
                         <button>
                             <img src={saveIcon} alt="save icon" />
                         </button>

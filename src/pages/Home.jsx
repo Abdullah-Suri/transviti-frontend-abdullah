@@ -15,7 +15,7 @@ const Home = () => {
           <ProfileInsight />
           <Calendar />
         </div>
-        <div className='lg:w-[75%] md:w-[65%] w-full'>
+        <div className='lg:w-[75%] md:w-[65%] w-full mt-3.5'>
           <SearchJobs />
           <JobPosts />
         </div>
